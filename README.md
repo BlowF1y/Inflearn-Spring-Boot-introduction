@@ -1,5 +1,18 @@
 # Inflearn-Spring Boot introduction
 # 인프런 김영한강사의 스프링부트 입문 강의를 정리한 내용
+# 단축키 정리
+- ctrl + shift + Enter : 코드 끝맻음 자동완성
+- alt + insert : getter setter 자동완성
+- Ctrl + Alt + V : 변수 추출하기 
+- Shift + Ctrl + Alt + T : 사용 가능한 리팩토링 옵션 표시
+# 03-19
+## Test
+- @BeforeEach : 각 테스트 실행 전에 호출된다. 테스트가 서로 영향이 없도록 항상 새로운 객체를 생성하고, 의존관계도 새로 맺어준다.
+- @AfterEach 를 사용하면 각 테스트가 종료될 때 마다 이 기능을 실행한다. 여기서는 메모리 DB에 저장된 데이터를 삭제한다.
+## API
+- @ResponseBody 를 사용하면 뷰 리졸버( viewResolver )를 사용하지 않음
+- 대신에 HTTP의 BODY에 문자 내용을 직접 반환(HTML BODY TAG를 말하는 것이 아님
+- Json 타입으로 변환된다
 # 03-16
 ## 스프링 부트 라이브러리
 - spring-boot-starter-web<br> 
