@@ -14,6 +14,7 @@ import javax.transaction.Transactional;
 
 
 @SpringBootTest
+
 @Transactional
 class MemberServiceIntegrationTest {
 
